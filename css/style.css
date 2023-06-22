@@ -1,7 +1,6 @@
 .hero {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.3em;
-  padding: 10px 0;
 }
 
 html {
@@ -213,7 +212,6 @@ p {
   color: #ffffff !important;
   background: #d6078e !important;
   width: 100%;
-  max-width: 190px;
 
   height: 101px;
   font-size: 1.2em !important;
@@ -344,7 +342,7 @@ body {
 }
 
 .buttonLinkbox {
-  padding: 0 20px 0 0;
+  padding: 0 0 0 0;
 }
 
 .borderbox2 {
@@ -571,4 +569,8 @@ i.fa.fa-check {
 figcaption {
   text-align: left;
   padding: 10px;
+}
+
+.carousel-caption {
+  background-color: #000000;
 }
