@@ -574,3 +574,13 @@ figcaption {
 .carousel-caption {
   background-color: #000000;
 }
+
+.btn-secondary {
+  background-color: #d6078e;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn:visited {
+  color: #fff;
+}
