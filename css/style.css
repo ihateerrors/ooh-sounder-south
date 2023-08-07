@@ -153,6 +153,11 @@ h3 {
 .accordion:hover {
   background-color: rgb(255, 255, 255);
   color: #2a7897;
+
+}
+
+.accordion.active {
+  border-bottom: none;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -165,17 +170,18 @@ h3 {
 }
 
 .accordion:after {
-  content: "\02795";
-  /* Unicode character for "plus" sign (+) */
-  font-size: 18px;
-  color: rgb(255, 255, 255);
+  content: "+";
   float: right;
-  margin-left: 5px;
+  font-size: 28px;
+  margin-right: 20px;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .accordion.active:after {
-  content: "\2796";
-  /* Unicode character for "minus" sign (-) */
+  font-size: 38px;
+  content: "-";
+
 }
 
 p {
@@ -573,4 +579,14 @@ figcaption {
 
 .carousel-caption {
   background-color: #000000;
+}
+
+.btn-secondary {
+  background-color: #d6078e;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn:visited {
+  color: #fff;
 }
