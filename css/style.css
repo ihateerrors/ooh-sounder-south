@@ -1,3 +1,18 @@
+
+:root {
+  --wave-blue: #2b376e;
+  --wave-teal: #2a7997;
+  --wave-green: #008281;
+  --railway-ray: #5a5a5a;
+  --highway-gray: #787878;
+  --service-gray: #aaaaaa;
+  --roadway-gray: #dcdcdc;
+  --land-gray: #f0f0f0;
+  --line-pink: #d6078e;
+}
+
+
+
 .hero {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.3em;
@@ -589,4 +604,44 @@ figcaption {
 
 .btn:visited {
   color: #fff;
+}
+
+/* Custom Tooltip styles */
+.tooltip {
+  max-width: 400px !important; /* Adjust the maximum width of the tooltip */
+}
+
+.tooltip-inner {
+  font-size: 1.7rem;
+  background-color: var(--wave-blue);
+  max-width: 100% !important;
+}
+.tooltip-anchor {
+  font-weight: 600;
+  border-bottom: 2px dashed gray;
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+}
+
+
+#sg_SubmitButton {
+  color: var(--line-pink);
+  background-color: #fff;
+  border: 2px solid var(--line-pink);
+  font-weight: 600;
+  font-size: 1.8rem;
+  border-radius: 0;
+  padding: .8rem 1.6rem;
+}
+.pbutton,
+#sg_SubmitButton:hover {
+  color: white;
+  background: var(--line-pink);
+}
+
+.pbutton:hover {
+  background-color: white;
+  color: var(--line-pink);
 }
