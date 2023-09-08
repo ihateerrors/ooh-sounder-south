@@ -608,6 +608,7 @@ figcaption {
 
 /* Custom Tooltip styles */
 .tooltip {
+  cursor: help;
   max-width: 400px !important; /* Adjust the maximum width of the tooltip */
 }
 
@@ -623,6 +624,12 @@ figcaption {
   padding: 0;
   margin: 0;
   font-size: inherit;
+  cursor: help;
+
+}
+.tooltip-anchor:hover {
+  cursor: help;
+
 }
 
 
