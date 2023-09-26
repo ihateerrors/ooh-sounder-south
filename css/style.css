@@ -96,6 +96,7 @@ button {
 .pinksurvey {
   background-color: #eaeaea;
   border: 2px solid #d6148e;
+  scroll-margin: 20px;
 }
 
 .gb {
