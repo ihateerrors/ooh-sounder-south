@@ -73,3 +73,22 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+
+
+// ----- Survey Scroll down -----
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Get the .pinksurvey element
+  const pinksurvey = document.querySelector('.pinksurvey');
+
+  // Function to check if the URL contains a specific query parameter
+  function getQueryParam(name) {
+      const urlSearchParams = new URLSearchParams(window.location.search);
+      return urlSearchParams.has(name);
+  }
+
+  // Check if the URL contains the "sg_sessionid" parameter
+  if (pinksurvey && getQueryParam('sg_sessionid')) {
+      pinksurvey.scrollIntoView({ behavior: 'smooth' });
+  }
+});
