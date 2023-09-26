@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // Check if the URL contains the "sg_sessionid" parameter
-  if (pinksurvey && getQueryParam('sg_sessionid')) {
+  if (pinksurvey && getQueryParam('sgtarget')) {
       pinksurvey.scrollIntoView({ behavior: 'smooth' });
   }
 });
