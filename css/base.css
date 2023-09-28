@@ -140,7 +140,7 @@ button {
     width: auto;
   }
 }
-input,
+input:not(.pinksurvey *),
 select,
 textarea {
   -webkit-appearance: none;
