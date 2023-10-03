@@ -160,6 +160,12 @@ textarea {
   padding: 1rem 0.7em;
   width: 100%;
 }
+
+
+.sg-survey label{
+  font-weight: inherit;
+}
+
 label {
   display: block;
   margin-top: 3rem;
